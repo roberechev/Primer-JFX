@@ -12,7 +12,7 @@ public class BlurController {
 
 	@FXML
 	public void setblur() {
-		pane.setEffect(new GaussianBlur(5));
+		pane.setEffect(new GaussianBlur(15));
 	}
 	@FXML
 	public void setFocus() {
@@ -23,6 +23,10 @@ public class BlurController {
 	private void handleClose() {
 
 		System.exit(0);
+	}
+	@FXML
+	public void initialize() {
+		pane.setEffect(new GaussianBlur(5));
 	}
 
 }

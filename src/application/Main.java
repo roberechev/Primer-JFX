@@ -11,6 +11,10 @@ import javafx.scene.layout.BorderPane;
  * 
  * @author rober
  * @see BlurController
+ * @version 1.0
+ * 
+ *          Hay dos ramas la master en la que solo se desenfoca y sale, y la
+ *          inicializacion que enfoca, desenfoca y sale.
  * 
  */
 
